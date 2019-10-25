@@ -1,0 +1,123 @@
+body {margin: 0;}
+.logo {
+	width: 60px;
+	height: 60px;
+	margin-left: 20px;
+	margin-right: 0px;
+}
+.nama {
+	font-family: georgia;
+	font-size: 20px;
+	color: #5eb7b7;
+	margin: 20px;
+	margin-left: 0px;
+}
+.navbar {
+	float: left;
+}
+
+.jarak {
+	padding-left: 200px;
+}
+ul.topnav {
+	list-style-type: none;
+	margin: 0px 0px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #5f6769;
+}
+ul.topnav li {float: left;}
+ul.topnav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 23px 16px;
+	text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a.active {background-color: #5eb7b7;}
+@media screen and (max-width: 600px) {
+	ul.topnav li.right,
+	ul.topnav li {float: none;}
+}
+
+.box
+{
+  margin-top: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 450px;
+  background: #5f6769;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 4%;
+}
+
+.box h1
+{
+  margin: 0 0 40px;
+  padding: 0;
+  font-size: 20px;
+  color: #5eb7b7;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.box input
+{
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.box input
+{
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #5eb7b7;
+  background: transparent;
+}
+.box input[type="submit"]
+{
+  font-family: "Adobe Gothic Std B";
+  border-bottom: none;
+  cursor: pointer;
+  background: #5eb7b7;
+  color: #5f6769;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  border-radius: 20px;
+}
+
+.box form div
+{
+  position: relative;
+}
+
+.box form div label
+{
+  position: absolute;
+  top: 10px;
+  left: 0;
+  color: #5eb7b7;
+  transition: .5s;
+  pointer-events: none;
+}
+
+.box input:focus ~ label,
+.box input:valid ~ label
+{
+  top: -12px;
+  left: 0;
+  color: #5eb7b7;
+  font-size: 12px;
+  font-weight: bold;
+}
+.lupa {
+  color: #5eb7b7;
+}
