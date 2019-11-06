@@ -4,6 +4,7 @@
 	<title>Indonesian Tour Guide</title>
 	<link rel="icon" type="image" href="image/guide.png">
 	<link rel="stylesheet" type="text/css" href="style daftar.css">
+	<script defer src="daftar.js"></script>
 </head>
 <body>
 
@@ -22,7 +23,7 @@
 </ul>
 <div class="box">
 	<h1>Daftar</h1>
-	<form>
+	<form action="#" method="post" onSubmit="validasi()">
 		<div class="inputBox">
 			<input type="text" name="" required="">
 			<label>Username</label>
@@ -30,19 +31,22 @@
     <div class="inputBox">
 			<input type="text" name="" required="">
 			<label>Nama Lengkap</label>
+		</div>
       <div class="inputBox">
   			<input type="email" name="" required="">
   			<label>Email</label>
   		</div>
 		<div class="inputBox">
-			<input type="password" name="" required="">
-			<label>password</label>
+			<input type="password" name="" required="" id="password">
+			<label>Password</label>
 		</div>
     <div class="inputBox">
-			<input type="password" name="" required="">
+			<input type="password" name="" required="" id="konfirmasipassword">
 			<label>Konfirmasi password</label>
 		</div>
+		<div>
 			<input type="submit" name="" value="Daftar">
+			</div>
 		<br>
 	</form>
 </div>
