@@ -4,6 +4,7 @@
 	<title>Indonesian Tour Guide</title>
 	<link rel="icon" type="image" href="image/guide.png">
 	<link rel="stylesheet" type="text/css" href="style masuk.css">
+	<script defer src="masuk.js"></script>
 </head>
 <body>
 
@@ -22,13 +23,13 @@
 </ul>
 <div class="box">
 	<h1>Login</h1>
-	<form>
+	<form action="#" method="post" onSubmit="validasi()">
 		<div class="inputBox">
 			<input type="text" name="" required="">
 			<label>Email</label>
 		</div>
 		<div class="inputBox">
-			<input type="password" name="" required="">
+			<input type="password" name="" required="" id="password">
 			<label>password</label>
 		</div>
 			<input type="submit" name="" value="Masuk">
@@ -36,7 +37,7 @@
 		<br>
 		<br>
 			<p class="lupa">Lupa Password?</p>
-		<a href="daftar.html"><input type="submit" name="" value="daftar" ></a>
+		<input type="submit" name="" value="daftar" >
 	</form>
 </div>
 </body>
