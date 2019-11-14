@@ -4,10 +4,11 @@ body {margin: 0;}
 	height: 60px;
 	margin-left: 20px;
 	margin-right: 0px;
+	height: auto;
 }
 .nama {
 	font-family: georgia;
-	font-size: 20px;
+	font-size: 90px;
 	color: #5eb7b7;
 	margin: 20px;
 	margin-left: 0px;
@@ -53,17 +54,22 @@ ul.topnav li a.active {background-color: #5eb7b7;}
 }
 .center {
 	position: absolute;
-	top: 50%;
-	left: 30%;
+	top: 65%;
+	left: 28%;
 	transform: translate(-50%, -50%);
 	font-size: 90px;
 	font-family: georgia;
 	color: #444444;
 	text-shadow: 5px 5px 5px #5eb7b7;
+	font-size:8vw;
 }
 img {
 	width: 1348.5px;
 	height: 700px;
+}
+.bg {
+	max-width: 100%;
+	height: auto
 }
 
 .p1 {
@@ -77,27 +83,33 @@ img {
 .img1 {
 	width: 400px;
 	height: 300px;
-	float: left;
+	float: center;
 	padding-top: 0px;
-	padding-left: 30px;
+	padding-left: 20px;
+	height: auto;
+	margin: 1%;
 }
 
 .img2 {
 	width: 400px;
 	height: 300px;
-	padding-left: 45px;
-	float: left;
+	padding-left: 20px;
+	float: center;
+	height: auto;
+	margin: 1%;
 }
 
 .img3 {
 	width: 400px;
 	height: 300px;
-	padding-right: 30px;
-	float: right;
+	padding-left: 20px;
+	float: center;
+	height: auto;
+	margin: 1%;
 }
 
 .p2 {
-	margin-top: 450px;
+	margin-top: 50px;
 	text-align: center;
 	font-size: 40px;
 	font-family: times new roman;
@@ -107,22 +119,25 @@ img {
 .p11 {
 	width: 400px;
 	height: 300px;
-	padding-left: 30px;
-	float: left;
+	padding-left: 20px;
+	float: center;
+	margin: 1%;
 }
 
 .p22 {
 	width: 400px;
 	height: 300px;
-	padding-left: 45px;
-	float: left;
+	padding-left: 20px;
+	float: center;
+	margin: 1%;
 }
 
 .p33 {
 	width: 400px;
 	height: 300px;
-	padding-right: 30px;
-	float: right;
+	padding-left: 20px;
+	float: center;
+	margin: 1%;
 }
 .box1 {
   width: 1347.4px;
@@ -130,31 +145,41 @@ img {
   height: 200px;  
   padding: 50px;
   border: 1px solid #5eb7b7;
-  margin-top: 400px;
+  margin-top: 80px;
   padding: 25px 0px 0px 0px;
+  width: auto;
+  height: auto;
 }
 .parthners {
 	text-align: center;
 	margin-top: 0px;
 }
 .lg1 {
-	padding-top: 30px;
-	float: left;
-	padding-left: 250px;
+	position: relative;
+	padding-left: 150px;
 	width: 200px;
 	height: 56px;
+	float: center;
+	margin: 1%;
+	height: auto;
 }
 .lg2 {
-	padding-left: 120px;
-	padding-top: 30px;
+	position: relative;
+	padding-left: 150px;
 	width: 191px;
 	height: 64px;
+	float: center;
+	margin: 1%;
+	height: auto;
 }
 .lg3 {
-	padding-left: 90px;
-	padding-top: 30px;
+	position: relative;
+	padding-left: 150px;
 	width: 250px;
 	height: 50px;
+	float: center;
+	margin: 1%;
+	height: auto;
 }
 .footer {
 	background-color: #5f6769;
@@ -188,4 +213,14 @@ img {
 	width: 25px;
 	height: 25px;
 	padding-right: 10px;
+}
+@media only screen and (max-width: 600px) {
+	.p11 .p22 .p33 {
+		float: center;
+		height: auto;
+		margin: 1%;
+	}
+	.p33 {
+		margin-top: 50px;
+	}
 }
