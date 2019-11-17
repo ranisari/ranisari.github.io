@@ -50,7 +50,7 @@ ul.topnav li a.active {background-color: #5eb7b7;}
 	top: 50%;
 	left: 30%;
 	transform: translate(-50%, -50%);
-	font-size: 90px;
+	font-size: 8vw;
 	font-family: georgia;
 	color: #444444;
 	text-shadow: 5px 5px 5px #5eb7b7;
